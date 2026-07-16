@@ -7,7 +7,7 @@ import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { apiCall } from "@/lib/apiClient";
 import { useNotificationStore } from "@/store/notificationStore";
 import { useAuthStore } from "@/store/authStore";
-import TawkToWidget from "@/components/TawkToWidget";
+import SmartsuppWidget from "@/components/SmartsuppWidget";
 import PageLoader from "@/components/PageLoader";
 import GoogleTranslate from "@/components/GoogleTranslate";
 
@@ -138,7 +138,7 @@ export default function DashboardLayout({
         </main>
 
       </div>
-      <TawkToWidget />
+      <SmartsuppWidget />
     </div>
   );
 }

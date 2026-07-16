@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "@/components/home/Header";
 import Footer from "@/components/home/Footer";
-import TawkToWidget from "@/components/TawkToWidget";
+import SmartsuppWidget from "@/components/SmartsuppWidget";
 import PageLoader from "@/components/PageLoader";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -19,7 +19,7 @@ export default function HomeLayout({
       </main>
       <Footer />
       <ScrollToTop />
-      <TawkToWidget />
+      <SmartsuppWidget />
     </>
   );
 }
