@@ -281,7 +281,7 @@ function DashboardContent({ tab }: { tab: string }) {
           </p>
         </div>
 
-        {tab === "portfolio" && username && (
+        {false && tab === "portfolio" && username && (
           <div className="flex items-center gap-3 bg-[#e4c126]/5 border border-[#e4c126]/20 rounded-lg px-4 py-2 text-sm self-start md:self-auto">
             <div className="flex flex-col text-left">
               <span className="text-[8px] text-neutral-500 uppercase tracking-widest font-black">My Referral Link</span>
@@ -306,7 +306,7 @@ function DashboardContent({ tab }: { tab: string }) {
       </div>
 
       {/* Promo banner — portfolio tab only */}
-      {tab === "portfolio" && (
+      {false && tab === "portfolio" && (
         <div className="relative flex flex-col sm:flex-row items-start sm:items-center gap-5 bg-[#528574]/10 border border-[#528574]/25 rounded-xl px-6 py-6 overflow-hidden">
           {/* Background glow */}
           <div className="absolute -top-6 -right-6 w-40 h-40 bg-[#528574]/10 rounded-full blur-2xl pointer-events-none" />
