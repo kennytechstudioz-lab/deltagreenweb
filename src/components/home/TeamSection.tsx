@@ -43,7 +43,7 @@ export default function TeamSection() {
           {/* Right Description & CTA */}
           <div className="lg:col-span-6 flex flex-col gap-6 pt-2 lg:pt-8">
             <p className="text-sm sm:text-base text-neutral-500 leading-relaxed max-w-xl">
-              Our team of seasoned professionals brings decades of combined expertise in clean energy, capital markets, and sustainable investment strategy to every allocation decision.
+              Our team of seasoned professionals brings decades of combined expertise in sustainable agriculture, capital markets, and sustainable investment strategy to every allocation decision.
             </p>
             <div>
               <a

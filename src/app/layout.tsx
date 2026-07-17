@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Delta Green Agro | Secure Agricultural Investment Platform",
     description: "Delta Green Agro is a world-class sustainable agricultural investment and production company. Secure robust daily compound returns from scalable crop cultivation, agro-commodities distribution, and farm logistics directly through our secure, high-yield digital investment platform.",
-    url: "https://dominiongroup.online",
+    url: "https://deltagreenagro.org",
     siteName: "Delta Green Agro",
     images: [
       {

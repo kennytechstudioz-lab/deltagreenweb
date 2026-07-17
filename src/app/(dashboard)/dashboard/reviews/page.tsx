@@ -93,7 +93,7 @@ export default function UserReviewsPage() {
           Investor Reviews & Feedback
         </h1>
         <p className="text-xs text-neutral-400 font-medium">
-          Share your energy investment experience with the Capricorn Energy community and view live testimonials.
+          Share your agricultural investment experience with the Delta Green Agro community and view live testimonials.
         </p>
       </div>
 
@@ -188,7 +188,7 @@ export default function UserReviewsPage() {
           <div className="flex flex-col gap-1">
             <h2 className="text-base font-extrabold text-white">Community Reviews</h2>
             <p className="text-[11px] text-neutral-400 font-light">
-              Verified active investors sharing their real oil & gas yield stories.
+              Verified active investors sharing their real agricultural yield stories.
             </p>
           </div>
 
@@ -208,7 +208,7 @@ export default function UserReviewsPage() {
                 No verified reviews published yet
               </span>
               <p className="text-[11px] text-neutral-500 max-w-sm text-center">
-                Submit your investment review to become one of the first featured Capricorn Energy advisors!
+                Submit your investment review to become one of the first featured Delta Green Agro advisors!
               </p>
             </div>
           ) : (

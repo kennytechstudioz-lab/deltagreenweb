@@ -59,7 +59,7 @@ export default function PageLoader() {
 
         <div className="flex flex-col gap-1.5 items-center mt-2">
           <span className="text-[10px] text-neutral-400 font-extrabold uppercase tracking-[0.25em] animate-pulse">
-            Securing Clean Energy Future
+            Securing Sustainable Agricultural Future
           </span>
           <span className="text-[9px] text-[#e4c126]/60 font-bold uppercase tracking-wider">
             Verifying Secured Portals...

@@ -41,7 +41,7 @@ export default function ProjectsPage() {
           </h1>
           <div className="border-l-4 border-[#e4c126] pl-6 py-1 max-w-2xl">
             <p className="text-base sm:text-lg md:text-xl font-medium text-white/95 leading-relaxed">
-              Pioneering state-of-the-art oil, gas, and renewable infrastructure investments globally.
+              Pioneering state-of-the-art greenhouse, crop production, and smart agricultural infrastructure investments globally.
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
               Our Awesome Projects
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-neutral-900 tracking-tight leading-[1.15]">
-              All Oil & Gas Projects
+              All Agricultural Projects
             </h2>
           </div>
 

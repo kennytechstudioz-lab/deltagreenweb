@@ -59,13 +59,13 @@ export default function AuthLayout({
           {/* Slogan details */}
           <div className="flex flex-col gap-4">
             <span className="text-xs font-extrabold tracking-[0.25em] text-[#e4c126] uppercase">
-              Clean Energy Yields
+              Sustainable Agriculture Yields
             </span>
             <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight">
-              Securing the future of energy, yield by yield.
+              Securing the future of farming, yield by yield.
             </h1>
             <p className="text-sm text-white/70 leading-relaxed font-light mt-2">
-              Join a verified global network of clean energy allocators, funding next-generation carbon capture technology, oil extraction pipelines, and high-efficiency wind reserves.
+              Join a verified global network of sustainable agricultural allocators, funding next-generation greenhouse cultivation, eco-friendly crop protection, and high-yield farming logistics.
             </p>
           </div>
 

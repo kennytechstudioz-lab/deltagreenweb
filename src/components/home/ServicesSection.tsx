@@ -34,8 +34,8 @@ export default function ServicesSection() {
       ),
     },
     {
-      title: "Clean Energy Assets",
-      description: "Invest in the future through solar farms, wind fields, and battery storage infrastructure — high-yield assets accelerating the global energy transition.",
+      title: "Agricultural Assets",
+      description: "Invest in high-yield agricultural assets including automated greenhouses, mechanized crop fields, and smart cold-chain logistics.",
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="12" cy="12" r="4" />
