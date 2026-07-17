@@ -5,5 +5,12 @@ export NVM_DIR="$HOME/.nvm"
 echo "Deploying Delta Web..."
 npm install
 npm run build
-pm2 restart delta-web || pm2 start npm --name "delta-web" -- run start
+
+# Copy static assets to the standalone directory
+cp -r public .next/standalone/
+cp -r .next/static .next/standalone/.next/
+
+# Restart/Start standalone server using PM2
+pm2 restart .next/standalone/server.js --name "deltagreen-web" || pm2 start .next/standalone/server.js --name "deltagreen-web"
+
 echo "Delta Web deployed successfully!"
