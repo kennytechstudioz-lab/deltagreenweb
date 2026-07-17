@@ -252,12 +252,23 @@ export default function ContactPage() {
   );
 }
 
+function decodeHTMLEntities(str: string): string {
+  return str
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&");
+}
+
 function extractMapSrc(embed: string): string | null {
   if (!embed.trim()) return null;
   // Must be an iframe tag containing a Google Maps URL
   if (!embed.includes("<iframe") || !embed.includes("google.com/maps")) return null;
   const match = embed.match(/src=["']([^"']+)["']/);
-  return match ? match[1] : null;
+  if (!match) return null;
+  return decodeHTMLEntities(match[1]);
 }
 
 function MapSection({ embed }: { embed: string }) {
