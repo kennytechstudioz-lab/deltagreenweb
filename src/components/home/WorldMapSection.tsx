@@ -10,9 +10,8 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { target: 10, suffix: "+", label: "Years of Experience" },
-  { target: 13, suffix: "", label: "Offices Worldwide" },
-  { target: 17, suffix: "K", label: "Investors Served" },
+  { target: 20, suffix: "+", label: "Years of Experience" },
+  { target: 70, suffix: "M+", label: "Investors Served" },
 ];
 
 function useCountUp(target: number, triggered: boolean, duration = 1800) {
@@ -95,7 +94,7 @@ export default function WorldMapSection() {
             </p>
 
             {/* Statistics Cards Row */}
-            <div className="grid grid-cols-3 gap-3 sm:gap-4 mt-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 mt-4">
               {stats.map((stat, index) => (
                 <StatCard key={index} stat={stat} triggered={triggered} />
               ))}
