@@ -9,8 +9,8 @@ interface ToastState {
 
 export const useToastStore = create<ToastState>((set) => ({
   message: null,
-  type: "error",
-  showToast: (message, type = "error") => {
+  type: "success",
+  showToast: (message, type = "success") => {
     set({ message, type });
   },
   hideToast: () => set({ message: null }),
