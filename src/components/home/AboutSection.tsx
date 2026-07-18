@@ -24,7 +24,7 @@ export default function AboutSection({ hideReadMore = false }: AboutSectionProps
               className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-2xl border border-neutral-100/80 bg-neutral-900 group"
             >
               <Image
-                src="/images/farmers_harvesting.png"
+                src="/images/farmers_harvesting.jpg"
                 alt="Farmers harvesting crop"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
